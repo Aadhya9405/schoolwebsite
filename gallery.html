@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+    <section class="gallery-section">
+        <h1>Our Galleries</h1>
+        <div class="gallery-container">
+            <button class="gallery-box" onclick="openGallery('gallery-2020')">2020-2021</button>
+            <button class="gallery-box" onclick="openGallery('gallery-2021')">2021-2022</button>
+            <button class="gallery-box" onclick="openGallery('gallery-2022')">2022-2023</button>
+            <button class="gallery-box" onclick="openGallery('gallery-2023')">2023-2024</button>
+            <button class="gallery-box" onclick="openGallery('gallery-2024')">2024-2025</button>
+        </div>
+    </section>
+
+    <!-- Lightbox Popup Gallery -->
+    <div id="gallery-popup" class="gallery-popup">
+        <span class="close" onclick="closeGallery()">&times;</span>
+        <div class="gallery-content">
+            <!-- 2020-2021 Images -->
+            <div class="gallery-set" id="gallery-2020">
+                <img src="2020-21(1).jpeg" alt="2020-1">
+                <img src="2020-2021(2).png" alt="2020-2">
+                <img src="2020-2021(3).png" alt="2020-3">
+                <img src="2020-2021(4).png" alt="2020-4">
+                <img src="2020-2021(5).png" alt="2020-5">
+                
+            </div>
+
+            <!-- 2021-2022 Images -->
+            <div class="gallery-set" id="gallery-2021">
+                <img src="2021-2022(1).png" alt="2021-1">
+                <img src="2021-2022(2).png" alt="2021-2">
+                <img src="2021-2022(3).png" alt="2021-3">
+                <img src="2021-2022(4).png" alt="2021-4">
+                <img src="2021-2022(5).png" alt="2021-5">
+            </div>
+
+            <!-- 2022-2023 Images -->
+            <div class="gallery-set" id="gallery-2022">
+                <img src="2022-2023(1).png" alt="2022-1">
+                <img src="2022-2023(2).png" alt="2022-2">
+                <img src="2022-2023(3).png" alt="2022-3">
+                <img src="2022-2023(4).png" alt="2022-4">
+                <img src="2022-2023(5).png" alt="2022-5">
+            </div>
+
+            <!-- 2023-2024 Images -->
+            <div class="gallery-set" id="gallery-2023">
+                <img src="2023-24(1).jpeg" alt="2023-1">
+                <img src="2023-2024(2).jpeg" alt="2023-2">
+                <img src="2023-2024(3).png" alt="2023-3">
+                <img src="2023-2024(4).png" alt="2023-4">
+                <img src="2023-2024(5).png" alt="2023-5">
+            </div>
+
+            <!-- 2024-2025 Images -->
+            <div class="gallery-set" id="gallery-2024">
+                <img src="2024-2025(1).png" alt="2024-1">
+                <img src="2024-2025(2).png" alt="2024-2">
+                <img src="2024-2025(3).png" alt="2024-3">
+                <img src="2024-2025(4).png" alt="2024-4">
+                <img src="2024-2025(5).png" alt="2024-5">
+            </div>
+        </div>
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
